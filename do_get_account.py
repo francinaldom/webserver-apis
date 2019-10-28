@@ -9,7 +9,7 @@ headers = {'Content-Type': 'application/json','Autorization': 'shortCode %s' % a
 #params={'shortCode':'A28','token':'qCmMDn7csHYkLMWneHewKtii/09VZKPJ'}
 #beta  
 # feito por naldo, testando git
-
+# gi status
 def get_account_info():
 
     api_url = '{0}/api/ContasPagar/PlanoFinanceiro/'.format(api_url_base)
