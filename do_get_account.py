@@ -7,7 +7,9 @@ api_url_base = 'https://18.235.218.228'
 
 headers = {'Content-Type': 'application/json','Autorization': 'shortCode %s' % api_scode, 'Auth': 'token %s ' % api_token}
 #params={'shortCode':'A28','token':'qCmMDn7csHYkLMWneHewKtii/09VZKPJ'}
+#beta 1 
 # feito por naldo, testando git
+
 def get_account_info():
 
     api_url = '{0}/api/ContasPagar/PlanoFinanceiro/'.format(api_url_base)
