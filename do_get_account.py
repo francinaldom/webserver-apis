@@ -7,7 +7,7 @@ api_url_base = 'https://18.235.218.228'
 
 headers = {'Content-Type': 'application/json','Autorization': 'shortCode %s' % api_scode, 'Auth': 'token %s ' % api_token}
 #params={'shortCode':'A28','token':'qCmMDn7csHYkLMWneHewKtii/09VZKPJ'}
-#beta 1 
+#beta  
 # feito por naldo, testando git
 
 def get_account_info():
