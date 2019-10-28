@@ -11,6 +11,7 @@ headers = {'Content-Type': 'application/json','Autorization': 'shortCode %s' % a
 # feito por naldo, testando git
 # gi status 2
 #Mudado
+#inserção
 def get_account_info():
 
     api_url = '{0}/api/ContasPagar/PlanoFinanceiro/'.format(api_url_base)
